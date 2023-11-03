@@ -27,6 +27,7 @@ app.post('/interactions', async function (req, res) {
   // Interaction type and data
   const { type, id, data } = req.body;
 
+  console.log(req.body)
   /**
    * Handle verification requests
    */
